@@ -1,0 +1,59 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.me {
+    width: 22rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    scale: 2;
+}
+
+.pic{
+    border-radius: 4vh;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .container {
+      width: var(--container-width-M);
+    }
+  
+    section {
+      margin-top: 6rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .container {
+      width: var(--container-width-S);
+    }
+  
+    section > h2{
+      margin-bottom: 2rem;
+    }
+  } */
