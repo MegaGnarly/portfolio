@@ -20,9 +20,9 @@ const Header = () => {
         </div>
 
         <div className='socials'>
-          <a href='https://linkedin.com/in/davidliu0115' target="_blank"><BsLinkedin/></a>
-          <a href='https://github.com/megagnarly' target="_blank"><BsGithub/></a>
-          <a href='https://facebook.com/davidliu0115' target="_blank"><BsFacebook/></a>
+          <a href='https://linkedin.com/in/davidliu0115' target="_blank" rel="noopener noreferrer"><BsLinkedin/></a>
+          <a href='https://github.com/megagnarly' target="_blank" rel="noopener noreferrer"><BsGithub/></a>
+          <a href='https://facebook.com/davidliu0115' target="_blank" rel="noopener noreferrer"><BsFacebook/></a>
         </div>
 
         <div className='me'>

@@ -1,0 +1,124 @@
+#skills {
+    padding-top: 3rem;
+}
+
+.skills_container{
+    grid-template-columns: [one] 45% [two] 10% [three] 45% [four];
+    grid-template-rows: [one] 35vh [two] 5vh [three] 35vh [four];
+    display: grid;
+}
+
+.languages_container{
+    grid-column: 1;
+    grid-row: 1;
+    overflow: hidden;
+    background-color: var(--colour4);
+    width: 100%;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.languages_container:hover{
+    filter: brightness(85%);
+}
+
+.tools_container{
+    grid-column: 3;
+    grid-row: 1;
+    overflow: hidden;
+    background-color: var(--colour4);
+    width: 100%;
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.tools_container:hover{
+    filter: brightness(85%);
+}
+
+.frontend_container{
+    grid-column: 1;
+    grid-row: 3;
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--colour4);
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.backend_container:hover{
+    filter: brightness(85%);
+}
+
+.backend_container{
+    grid-column: 3;
+    grid-row: 3;
+    overflow: hidden;
+    width: 100%;
+    background-color: var(--colour4);
+    border-radius: 3rem;
+    transition: var(--transition);
+}
+
+.frontend_container:hover{
+    filter: brightness(85%);
+}
+
+.skill_title {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.skill {
+    width: 40%;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.skill_img {
+    width: 25%;
+}
+
+.skill_type {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill_name {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .skill_name{
+        font-size: larger;
+    }
+    .skill_img{
+        width: 40%;
+    }
+
+  }
+  
+  @media screen and (max-width: 600px) {
+    #skills {
+        height: max-content;
+    }
+    .skills_container{
+        display: flex;
+        width: 90%;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .skill_name{
+        font-size: medium;
+    }
+    .skill_img{
+        width: 30%;
+    }
+  }
