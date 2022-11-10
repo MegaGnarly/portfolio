@@ -34,7 +34,11 @@ html {
 
 body {
   color: var(--colour2);
-  background-image: linear-gradient(135deg, var(--colour4), var(--colour3));
+  /* background-image: linear-gradient(135deg, var(--colour4), var(--colour3)); */
+  background-color: var(--colour4);
+  background-image: linear-gradient(rgba(7, 52, 59, 0.7), rgba(5, 49, 58, 0.7)), url('./assets/background.jpg');
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 .container {
@@ -52,7 +56,7 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
+  height: max-content;
 }
 
 section > h2, section > h5{
