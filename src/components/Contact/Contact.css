@@ -1,36 +1,88 @@
-/* .modal {
-    font-size: 12px;
-  }
-  .modal > .header {
-    width: 100%;
-    border-bottom: 1px solid gray;
-    font-size: 18px;
-    text-align: center;
-    padding: 5px;
-  }
-  .modal > .content {
-    width: 100%;
-    padding: 10px 5px;
-  }
-  .modal > .actions {
-    width: 100%;
-    padding: 10px 5px;
-    margin: auto;
-    text-align: center;
-  }
-  .modal > .close {
-    cursor: pointer;
-    position: absolute;
-    display: block;
-    padding: 2px 5px;
-    line-height: 20px;
-    right: -10px;
-    top: -10px;
-    font-size: 24px;
-    background: #ffffff;
-    border-radius: 18px;
-    border: 1px solid #cfcece;
-  } */
+#contact{
+  height: 100vh;
+  padding-top: 8rem;
+}
 
+.contact_container{
+  width: 58%;
+  display: grid;
+  grid-template-columns: 30% 58%;
+  gap: 12%;
+}
 
+.contact_options{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
 
+.contact_option{
+  background: var(--colour4);
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.contact_option:hover {
+  background-color: rgba(12, 97, 112, 0.6);
+  border-color: var(--colour3);
+}
+
+.contact_icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+article h5{
+  color: var(--colour1);
+}
+
+.contact_option a{
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: var(--colour1);
+  border: 2px solid var(--colour4);
+  resize: none;
+  color: black;
+}
+
+input::placeholder, textarea::placeholder{
+  color: var(--colour4);
+}
+
+.btn_primary{
+  color: var(--colour4);
+  background-color: var(--colour1);
+}
+
+@media screen and (max-width: 1024px) {
+  #contact{
+    padding-top: 2rem;
+  }
+  .contact_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .contact_container {
+    width: var(--container-width-S);
+  }
+
+}

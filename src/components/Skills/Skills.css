@@ -25,61 +25,9 @@
     padding-bottom: 3rem;
 }
 
-/* .languages_container{
-    grid-column: 1;
-    grid-row: 1;
-    overflow: hidden;
-    background-color: var(--colour4);
-    width: 100%;
-    border-radius: 3rem;
-    transition: var(--transition);
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--colour3);
 }
-
-.languages_container:hover{
-    filter: brightness(85%);
-} */
-
-/* .tools_container{
-    grid-column: 3;
-    grid-row: 1;
-    overflow: hidden;
-    background-color: var(--colour4);
-    width: 100%;
-    border-radius: 3rem;
-    transition: var(--transition);
-}
-
-.tools_container:hover{
-    filter: brightness(85%);
-}
-
-.frontend_container{
-    grid-column: 1;
-    grid-row: 3;
-    overflow: hidden;
-    width: 100%;
-    background-color: var(--colour4);
-    border-radius: 3rem;
-    transition: var(--transition);
-}
-
-.backend_container:hover{
-    filter: brightness(85%);
-}
-
-.backend_container{
-    grid-column: 3;
-    grid-row: 3;
-    overflow: hidden;
-    width: 100%;
-    background-color: var(--colour4);
-    border-radius: 3rem;
-    transition: var(--transition);
-}
-
-.frontend_container:hover{
-    filter: brightness(85%);
-} */
 
 .skill_title {
     text-align: center;
@@ -95,13 +43,13 @@
     margin: 1rem;
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 2em;
     padding: 1rem;
     transition: var(--transition);
 }
 
 .skill:hover {
-    background-color: var(--colour3);
+    scale: 1.03;
 }
 
 .skill_img {
@@ -123,11 +71,11 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .skill_name{
-        font-size: larger;
-    }
     .skill_img{
-        width: 40%;
+        width: 30%;
+    }
+    .skill{
+        gap: 1rem;
     }
 
   }
