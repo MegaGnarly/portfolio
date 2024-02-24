@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import Resume from '../../assets/DavidLiuResume.pdf'
+import Resume from '../../assets/DavidLiuResume2024.pdf'
 import Pic from '../../assets/IMG-1379.jpg'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
