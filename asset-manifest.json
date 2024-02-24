@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.29655b2c.css",
-    "main.js": "/portfolio/static/js/main.69478a24.js",
+    "main.js": "/portfolio/static/js/main.6cbc2f0f.js",
     "static/media/background.jpg": "/portfolio/static/media/background.c83a618da63e0e356391.jpg",
     "static/media/Project4-1.png": "/portfolio/static/media/Project4-1.3ed6b10d1bb19cfc3b55.png",
     "static/media/IMG-1370.jpg": "/portfolio/static/media/IMG-1370.b7c7e761aa65dd396658.jpg",
@@ -13,8 +13,8 @@
     "static/media/Project3-3.png": "/portfolio/static/media/Project3-3.605fa57b3c2467e3dccf.png",
     "static/media/Project2-2.png": "/portfolio/static/media/Project2-2.c18f67e47aea877c850a.png",
     "static/media/Project2-3.png": "/portfolio/static/media/Project2-3.16e6133a65dfd19e15b2.png",
-    "static/media/DavidLiuResume.pdf": "/portfolio/static/media/DavidLiuResume.a7d8b8e3d611a3a0abde.pdf",
     "static/media/Project3-1.png": "/portfolio/static/media/Project3-1.a2b7d40f2ea7955e297d.png",
+    "static/media/DavidLiuResume2024.pdf": "/portfolio/static/media/DavidLiuResume2024.cd7d707dfc533e2ccb40.pdf",
     "static/media/matlab.png": "/portfolio/static/media/matlab.3b48784140b1c2101e8d.png",
     "static/media/mongodb.png": "/portfolio/static/media/mongodb.bf8042403d8797a7ff1b.png",
     "static/media/python.png": "/portfolio/static/media/python.ef9aab903ffcbbaf367a.png",
@@ -29,10 +29,10 @@
     "static/media/nodejs.png": "/portfolio/static/media/nodejs.9493a7030123ccb59d91.png",
     "index.html": "/portfolio/index.html",
     "main.29655b2c.css.map": "/portfolio/static/css/main.29655b2c.css.map",
-    "main.69478a24.js.map": "/portfolio/static/js/main.69478a24.js.map"
+    "main.6cbc2f0f.js.map": "/portfolio/static/js/main.6cbc2f0f.js.map"
   },
   "entrypoints": [
     "static/css/main.29655b2c.css",
-    "static/js/main.69478a24.js"
+    "static/js/main.6cbc2f0f.js"
   ]
 }
